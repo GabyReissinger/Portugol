@@ -1,3 +1,4 @@
+//11. Escreva um programa que leia três números e verifique se eles podem formar os lados de um triângulo.
 programa
 {
 	
@@ -30,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 477; 
+ * @POSICAO-CURSOR = 84; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
