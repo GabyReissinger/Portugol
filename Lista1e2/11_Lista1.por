@@ -1,39 +1,36 @@
-//11. Escreva um programa que leia três números e verifique se eles podem formar os lados de um triângulo.
-programa 
+programa
 {
+	
 	funcao inicio()
 	{
-		inteiro lado_a, lado_b, lado_c
+		inteiro lda, ldb, ldc
+
+		escreva("Informe o primeiro lado do triângulo: ")
+		leia(lda)
 		
-		escreva ("Informe o primeiro lado do triângulo: ")
-		leia (lado_a)
+		escreva("Informe o segundo lado do triângulo: ")
+		leia(ldb)
+		
+		escreva("Informe o terceiro lado do triângulo: ")
+		leia(ldc)
 
-		escreva ("Informe o segundo lado do triângulo: ")
-		leia (lado_b)
-
-		escreva ("Informe o terceiro lado do triângulo: ")
-		leia (lado_c)
-
-		se (lado_a == lado_b e lado_a == lado_c){
-			escreva ("\nEste triângulo é Equilátero\n")
+		se(lda == ldb e lda == ldc){
+			escreva("\nEste triangulo é Equilátero :)\n")
 		}
-		senao{
-			
-		se (lado_a == lado_b ou lado_b == lado_c ou lado_c == lado_a){
-				escreva ("\nEste triângulo é Isósceles\n")
-			}senao{
-				escreva ("\nEste triângulo é Escaleno\n")
-			}
+		senao se(lda == ldb ou ldb == ldc ou ldc == lda){
+			escreva("\nEste triangulo é Isósceles :)\n")
+		}senao{
+			escreva("\nEste triangulo é Escaleno :)\n")
 		}
+		
 	}
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2; 
+ * @POSICAO-CURSOR = 494; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
