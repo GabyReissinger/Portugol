@@ -1,3 +1,4 @@
+//2 - Escreva um programa para verificar se um triângulo é Equilátero, Isósceles ou Escaleno.
 programa
 {
 	
@@ -15,12 +16,12 @@ programa
 		leia(ldc)
 
 		se(lda == ldb e lda == ldc){
-			escreva("\nPode ser um triângulo :)\n")
+			escreva("\nEste triangulo é Equilátero :)\n")
 		}
 		senao se(lda == ldb ou ldb == ldc ou ldc == lda){
-			escreva("\nPode ser um triângulo :)\n")
+			escreva("\nEste triangulo é Isósceles :)\n")
 		}senao{
-			escreva("\nPode ser um triângulo :)\n")
+			escreva("\nEste triangulo é Escaleno :)\n")
 		}
 		
 	}
@@ -30,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 477; 
+ * @POSICAO-CURSOR = 84; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
