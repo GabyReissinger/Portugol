@@ -1,23 +1,22 @@
-//1 - Modifique o exercício 6 da lista anterior para imprimir os números de 1 até n e também realizar sua soma.
+//2 - Escreva um programa que faça a tabuada de um número n.
 programa
 {
 	inclua biblioteca Util --> u
 	
 	funcao inicio()
 	{
-		inteiro num, soma = 0
-
-		escreva("Escreva um número: ")
+		inteiro num, resultado, contador
+		
+		escreva("Qual tabuada você que saber? ")
 		leia(num)
 
-		para (inteiro i=1; i<=num; i++){
-			escreva("\n", i)
-			u.aguarde(50)
-
-			soma = soma + i
-		}
+		limpa()
 		
-			escreva("\nA soma total é ", soma)
+		para (contador = 1; contador <= 10; contador++){
+			u.aguarde(50)
+			resultado = num * contador 
+			escreva (num, " X ", contador, " = ", resultado , "\n")
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -25,9 +24,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 198; 
+ * @POSICAO-CURSOR = 206; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {num, 8, 10, 3}-{soma, 8, 15, 4}-{i, 13, 16, 1};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
